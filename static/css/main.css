@@ -19,6 +19,7 @@
 	}
  
 .description{
+        float : left; 
 		margin: 180px 0 0 0;
 		color: #484848;
         
@@ -29,6 +30,7 @@
 }
  
 .price-stamp{
+        padding-top:0px;
 		margin: -180px 0 0 12px;
 		color: #fff;
 		font-weight: 900;
@@ -38,6 +40,11 @@
 .picktitle{
 margin-bottom:20px;
  
+}
+.img-fluid{
+max-height:190px;
+max-width: 290px
+
 }
  
  
