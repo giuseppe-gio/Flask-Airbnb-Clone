@@ -21,21 +21,21 @@ def get_listings():
 
 
     
-    rand= random.randint(0, len(listings_data)-1)
-    
-    titolo1=listings_data[rand][0]
-    foto1=listings_data[rand][1]
-    
-    rand2= random.randint(0, len(listings_data)-1)
+    rand1 = random.randint(0, len(listings_data) - 1)
+    titolo1 = listings_data[rand1][0]
+    foto1 = listings_data[rand1][1]
 
-    while(True):
-        if rand2==rand:
-            rand2= random.randint(0, len(listings_data)-1)
-        else:
-            titolo2=listings_data[rand2][0]
-            foto2=listings_data[rand2][1]
-            break
+    rand2 = random.randint(0, len(listings_data) - 1)
+    while rand2 == rand1:
+        rand2 = random.randint(0, len(listings_data) - 1)
+    titolo2 = listings_data[rand2][0]
+    foto2 = listings_data[rand2][1]
 
+    rand3 = random.randint(0, len(listings_data) - 1)
+    while rand3 == rand1 or rand3 == rand2:
+        rand3 = random.randint(0, len(listings_data) - 1)
+    titolo3 = listings_data[rand3][0]
+    foto3 = listings_data[rand3][1]
      
 
-    return render_template("index.html", titolo=titolo1 , foto=foto1, titolo2=titolo2 , foto2=foto2)
+    return render_template("index.html", titolo=titolo1 , foto=foto1, titolo2=titolo2 , foto2=foto2, titolo3=titolo3, foto3=foto3)
