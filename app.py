@@ -10,18 +10,22 @@ def get_listings():
     response= requests.get(url)
     soup= BeautifulSoup(response.content, "lxml")
 
-    listings_data = {}
+    listings_data = []
     for item in soup.select('[itemprop=itemListElement]'):
             img= item.find("img", {"class":"itu7ddv i1mla2as i1cqnm0r dir dir-ltr"})
             foto = img['src']
             
             for name in item.select('[itemprop=name]'):
-                 listing_titles.append(name['content'])
+                 listings_data.append((name['content'], foto)) 
+    print(listings_data)
+
+
     
+    rand= random.randint(0, len(listings_data)-1)
     
-    
-    titolo1= listing_titles[random.randint(0, len(listing_titles)-1)]
+    titolo1=listings_data[rand][0]
+    foto1=listings_data[rand][1]
 
      
 
-    return render_template("index.html", titolo=titolo1)
+    return render_template("index.html", titolo=titolo1 , foto=foto1)
