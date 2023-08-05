@@ -10,8 +10,11 @@ def get_listings():
     response= requests.get(url)
     soup= BeautifulSoup(response.content, "lxml")
 
-    listing_titles= []
-    for item in soup.select('[itemprop=itemListElement]'): 
+    listings_data = {}
+    for item in soup.select('[itemprop=itemListElement]'):
+            img= item.find("img", {"class":"itu7ddv i1mla2as i1cqnm0r dir dir-ltr"})
+            foto = img['src']
+            
             for name in item.select('[itemprop=name]'):
                  listing_titles.append(name['content'])
     
