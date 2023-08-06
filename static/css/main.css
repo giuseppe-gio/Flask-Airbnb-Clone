@@ -56,7 +56,7 @@ top: 0; left: 0; right: 0; width:100%
 position: fixed; 
 height: 61px; 
 border: 1px solid #DCE0E0;
-
+z-index: 10 ; 
 
 
 }
