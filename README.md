@@ -22,3 +22,5 @@ $ flask run
 Or run this command 
 ```bash
 $ python -m flask run
+```
+made by giuseppe giordano
