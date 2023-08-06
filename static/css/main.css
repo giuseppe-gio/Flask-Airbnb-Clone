@@ -1,7 +1,7 @@
 .site-content{
 	margin: 130px auto;
 	width: 940px;
-	height: 1500px;
+	height: 1000px;
     font-family: 'Plus Jakarta Sans', sans-serif;
  
 }
@@ -45,8 +45,8 @@ margin-left: -11px;
 }
 .img-fluid{
 max-height:190px;
-max-width: 290px
-
+max-width: 290px; 
+border-radius:5px; 
 }
  
 header{
