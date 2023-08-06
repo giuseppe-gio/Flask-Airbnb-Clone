@@ -19,7 +19,8 @@ def get_listings():
             
             for name in item.select('[itemprop=name]'):
                  listings_data.append((name['content'], foto))
-                 listings_prices[name["content"]] = price.replace(u'\xa0', u' ').replace(",", "")
+                 
+                 listings_prices[name["content"]] = price.replace(u'\xa0', u' ').replace(",", "N/A")
 
     print(listings_data)
     print(listings_prices)
