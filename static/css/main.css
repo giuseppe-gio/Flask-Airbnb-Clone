@@ -109,3 +109,89 @@ background-color: #DCE0E0;
 transition: 500ms ease;
 
 }
+
+.quick-search{
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+margin-left: 50px ; 
+width: 800px; 
+height: 50px;
+display:inline-block; 
+
+
+}
+
+.quick-search-input{
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+float: left; 
+height:50px; 
+width: 300px; 
+display: inline-block; 
+border: 1px solid #757575;  
+}
+
+.quick-search-input input{
+margin-left:20px; 
+
+width: 270px;
+font-size:20px; 
+border: none; 
+background: transparent; 
+outline: none; 
+}
+
+.check-in , .check-out {
+font-size: 20px; 
+float: left; 
+width: 150px;
+height: 50px; 
+border-right: 1px solid #757575;
+display: inline-block ;
+border: 1px solid #757575;     
+border-left-color: transparent ;   
+}
+.ospiti{
+font-size: 20px; 
+float: left; 
+width: 150px;
+height: 50px; 
+border-right-color:transparent; 
+display: inline-block ;   
+border: 1px solid #757575;
+border-left-color: transparent ;   
+}
+
+.check-in input , .check-out input , .ospiti input{
+border: none; 
+width: 130px ; 
+background: transparent; 
+outline: none;
+margin : 10px 10px ;  
+
+}
+
+.search-btn{
+font-size: 20px; 
+float: left; 
+width: 48px;
+height: 50px; 
+border: none; 
+background-color: #FF5A5F;
+color: white;
+font-weight: bold; 
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+
+}
+
+ .picks-container{
+margin-top: 40px; 
+
+
+}
+
+
+
+
+
