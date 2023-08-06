@@ -1,7 +1,7 @@
 .site-content{
 	margin: 130px auto;
 	width: 940px;
-	height: 1000px;
+	height: 650px;
     font-family: 'Plus Jakarta Sans', sans-serif;
  
 }
@@ -43,7 +43,7 @@
 margin-bottom:20px;
 margin-left: -11px;
 }
-.img-fluid{
+.listing-img{
 height:190px;
 width: 290px; 
 border-radius:5px; 
@@ -197,5 +197,25 @@ margin-top: 40px;
 }
 
 
+.maldive-container{
+margin-bottom: 100px; 
 
 
+}
+
+.maldive-img{
+border-radius: 10px; 
+
+
+}
+
+.maldive-title-container h2 span{
+		color: #FF5A5F; 
+
+}
+
+.maldive-title-container p{
+margin-top: 30px; 
+
+
+}
