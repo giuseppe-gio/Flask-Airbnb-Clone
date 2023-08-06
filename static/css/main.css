@@ -99,7 +99,13 @@ height:61px;
 .list-items{
 float: left;
 list-style: none;
-padding: 15px ;
+padding: 18px 15px ;
 border-left: 1px solid #DCE0E0;
 height:61px; 
+}
+.list-items:hover{
+cursor: pointer; 
+background-color: #DCE0E0;
+transition: 500ms ease;
+
 }
