@@ -49,4 +49,57 @@ max-width: 290px
 
 }
  
- 
+header{
+background-color: white; 
+overflow: visible; position: fixed;
+top: 0; left: 0; right: 0; width:100%
+position: fixed; 
+height: 61px; 
+border: 1px solid #DCE0E0;
+
+
+
+}
+
+.logo{
+float: left; 
+height:61px;
+border-right: 1px solid #DCE0E0;
+
+}
+
+.logo img{
+height: auto; 
+width: 80px; 
+margin:17px 15px; 
+
+}
+
+.search-bar{
+height:61px; 
+width: 800px;  
+
+display: inline-block; 
+}
+
+.search-bar input{
+border: none; 
+outline: none ; 
+margin: 15px 20px ; 
+
+}
+
+.nav{
+
+margin-top: 0px; 
+float: right; 
+height:61px; 
+}
+
+.list-items{
+float: left;
+list-style: none;
+padding: 15px ;
+border-left: 1px solid #DCE0E0;
+height:61px; 
+}
