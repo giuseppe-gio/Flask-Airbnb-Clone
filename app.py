@@ -15,11 +15,11 @@ def get_listings():
             img= item.find("img", {"class":"itu7ddv i1mla2as i1cqnm0r dir dir-ltr"})
             foto = img['src']
 
-            price= item.find("span",{"class":"a8jt5op dir dir-ltr"}).getText()
+            price= item.find("span",{"class":"a8jt5op dir dir-ltr"}).getText()[:13]
             
             for name in item.select('[itemprop=name]'):
                  listings_data.append((name['content'], foto))
-                 listings_prices[name["content"]] = price.replace(u'\xa0', u' ')
+                 listings_prices[name["content"]] = price.replace(u'\xa0', u' ').replace(",", "")
 
     print(listings_data)
     print(listings_prices)
