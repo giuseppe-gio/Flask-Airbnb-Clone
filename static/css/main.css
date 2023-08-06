@@ -44,8 +44,8 @@ margin-bottom:20px;
 margin-left: -11px;
 }
 .img-fluid{
-max-height:190px;
-max-width: 290px; 
+height:190px;
+width: 290px; 
 border-radius:5px; 
 }
  
@@ -195,7 +195,6 @@ margin-top: 40px;
 
 
 }
-
 
 
 
