@@ -23,4 +23,10 @@ Or run this command
 ```bash
 $ python3 -m flask run
 ```
-made by giuseppe giordano
+
+
+## Hot listings Dinamici 
+
+![img](https://i.imgur.com/FD9UiI8.png)
+
+Ad ogni refresh 3 hot listings vengono mostrati casualmente da una pool di listings presi dal web scraper
