@@ -52,7 +52,7 @@ border-radius:5px;
 header{
 background-color: white; 
 overflow: visible; position: fixed;
-top: 0; left: 0; right: 0; width:100%
+top: 0; left: 0; right: 0; width:100% ;
 position: fixed; 
 height: 61px; 
 border: 1px solid #DCE0E0;
@@ -128,7 +128,7 @@ border-bottom-left-radius: 3px;
 float: left; 
 height:50px; 
 width: 300px; 
-display: inline-block; 
+
 border: 1px solid #757575;  
 }
 
@@ -148,7 +148,7 @@ float: left;
 width: 150px;
 height: 50px; 
 border-right: 1px solid #757575;
-display: inline-block ;
+
 border: 1px solid #757575;     
 border-left-color: transparent ;   
 }
@@ -158,7 +158,7 @@ float: left;
 width: 150px;
 height: 50px; 
 border-right-color:transparent; 
-display: inline-block ;   
+  
 border: 1px solid #757575;
 border-left-color: transparent ;   
 }
@@ -208,14 +208,23 @@ border-radius: 10px;
 
 
 }
+.maldive-title-container {
+margin-top: 30px;
 
-.maldive-title-container h2 span{
-		color: #FF5A5F; 
+
+}
+.maldive-title-container h2 {
+	font-weight: 600;
+
+}
+.maldive-title-container h2 span {
+		color: #FF5A5F;
+		font-weight: bold;
 
 }
 
 .maldive-title-container p{
-margin-top: 30px; 
+margin-top: 50px; 
 
 
 }
