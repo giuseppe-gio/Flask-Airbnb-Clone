@@ -30,6 +30,6 @@ $ python3 -m flask run
 
 ## Hot listings Dinamici 
 
-![img](https://i.imgur.com/FD9UiI8.png)
+![img](https://im2.ezgif.com/tmp/ezgif-2-f1f630fe02.gif)
 
 Ad ogni refresh 3 hot listings vengono mostrati casualmente da una pool di listings presi dal web scraper
