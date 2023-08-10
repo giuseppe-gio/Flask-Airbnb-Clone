@@ -1,8 +1,8 @@
 # Flask-Airbnb-Clone
-Airbnb clone that shows real listings via a python web scaper
+Responsive Airbnb clone that shows real listings via a python web scaper
 
 
-* CURRENTLY WORKING ON A COMPLETE HTML RESPONSIVE REVAMP
+* COMPLETE HTML RESPONSIVE REVAMP
 
 ## Installation
 
