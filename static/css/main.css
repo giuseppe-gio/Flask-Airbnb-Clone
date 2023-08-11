@@ -1,224 +1,171 @@
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-    outline: none;
+input:focus, select:focus, textarea:focus, button:focus {
+     outline: none;
 }
-*{
-    margin-top:0%;
-    padding: 0%;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+ *{
+     margin-top:0%;
+     padding: 0%;
+     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-body{ margin-top: 0%; height: 100%;}
-
-header{
-   position: sticky;
-   top:0; 
-    width: 100%;
-    height: 61px;
-    margin-top: 0px;
-    z-index: 10;
+ body{
+     margin-top: 0%;
+     height: 100%;
 }
-
-.airnav{
-    
-    margin-top: 0%;
-    height: 61px;
-    border: 1px solid #DCE0E0;
-    width: 100%;
-    background-color: red;
-    padding: 0;
-    
-
+ header{
+     position: sticky;
+     top:0;
+     width: 100%;
+     height: 61px;
+     margin-top: 0px;
+     z-index: 10;
 }
-
-.nav-logo {
-    border-right: 1px solid #DCE0E0;
-    height: 61px;
-    
-
+ .airnav{
+     margin-top: 0%;
+     height: 61px;
+     border: 1px solid #DCE0E0;
+     width: 100%;
+     background-color: red;
+     padding: 0;
 }
-
-.logoimg{
-    margin: 12px 15px ;
-    height: 25px;
-    width: 80px;
-    
+ .nav-logo {
+     border-right: 1px solid #DCE0E0;
+     height: 61px;
 }
-
-.search-bar input, .search-bar input:focus{
-    width: auto;
-    border: none ; 
-    outline: none;
-    
+ .logoimg{
+     margin: 12px 15px ;
+     height: 25px;
+     width: 80px;
 }
-
-.nav-ul {
-    height: 61px;
-    
+ .search-bar input, .search-bar input:focus{
+     width: auto;
+     border: none ;
+     outline: none;
 }
-.nav-ul li{
-    border-left: 1px solid #DCE0E0;
-    
+ .nav-ul {
+     height: 61px;
 }
-
-.nav-ul li a {
-    margin-top: 8px;
-    margin-left: 5px;
+ .nav-ul li{
+     border-left: 1px solid #DCE0E0;
 }
-
-.site-content{
-	
-	width: 940px;
-	height: 300px;
-    
- 
+ .nav-ul li a {
+     margin-top: 8px;
+     margin-left: 5px;
 }
-
-.slogan-container{
-    margin-left: 0px;  
-    font-size: 46px;
-    font-weight: 100;
-    color: #484848;
-    margin-bottom: 60px;
-    
+ .site-content{
+     width: 940px;
+     height: 300px;
 }
-
-.slogan-container span{
-    font-weight: 800;
-    color: #FF5A5F;
-   
+ .slogan-container{
+     margin-left: 0px;
+     font-size: 46px;
+     font-weight: 100;
+     color: #484848;
+     margin-bottom: 60px;
 }
-
-.quick-row{
-    width: 100%;
-    height: 100%;
+ .slogan-container span{
+     font-weight: 800;
+     color: #FF5A5F;
 }
-
-
-
-@media (max-width: 576px) {
-
-    
-    .slogan-container{font-size: 40px;}
-
+ .quick-row{
+     width: 100%;
+     height: 100%;
 }
-
-@media (max-width:975px) {
-
-	.airnav{border: none;padding-bottom: 10px;}
-	
-}
-
-
-.quick-search{
-    margin-left: 40px;
-    height: 61px;
-    margin-bottom: 40px;
-    padding-left: 200px;
-}
-.quick-search-input{
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    float: left; 
-    height:50px; 
-    width: 300px; 
-    
-    border: 1px solid #757575;  
+ @media (max-width: 576px) {
+     .slogan-container{
+        font-size: 40px;
     }
-    
-.quick-search-input input{
-    margin-left:20px; 
-    margin-top: 10px;
-    width: 270px;
-    font-size:20px; 
-    border: none; 
-    background: transparent; 
-    outline: none; 
-    }
-    
-    .check-in , .check-out {
-    font-size: 20px; 
-    float: left; 
-    width: 150px;
-    height: 50px; 
-    border-right: 1px solid #757575;
-    
-    border: 1px solid #757575;     
-    border-left-color: transparent ;   
-    }
-    .ospiti{
-    font-size: 20px; 
-    float: left; 
-    width: 150px;
-    height: 50px; 
-    border-right-color:transparent; 
-      
-    border: 1px solid #757575;
-    border-left-color: transparent ;   
-    }
-    
-    .check-in input , .check-out input , .ospiti input{
-    border: none; 
-    width: 130px ; 
-    background: transparent; 
-    outline: none;
-    margin : 10px 10px ;  
-    
-    }
-    
-    .search-btn{
-    font-size: 20px; 
-    float: left; 
-    width: 48px;
-    height: 50px; 
-    border: none; 
-    background-color: #FF5A5F;
-    color: white;
-    font-weight: bold; 
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    
-    }
-    .search-btn:hover{
-            background-color: #FF7E82;
-            cursor: pointer;
-        }
-
-
-.slogan-container::selection , .slogan-container span::selection{
-	background-color: #FF5A5F;
-	color: white;
 }
-
-
-
-
-.hero-text span{
-
-    color: #FF5A5F;
-
-    
+ @media (max-width:975px) {
+     .airnav{
+        border: none;
+        padding-bottom: 10px;
+    }
 }
-
-.card-img-overlay{
-    margin-top: -15px;
+ .quick-search{
+     margin-left: 40px;
+     height: 61px;
+     margin-bottom: 40px;
+     padding-left: 200px;
 }
-.price-stamp{
-    position: relative;
-    margin: -20px -10px;
-    z-index: 2;
-    color: #fff;
-    font-weight: 900;
-    font-size: 24px;
-    text-shadow: 0 0 6px #615e61;
-    
+ .quick-search-input{
+     border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+     float: left;
+     height:50px;
+     width: 300px;
+     border: 1px solid #757575;
 }
-
-.listings-container{
-    padding-top: 40px;
+ .quick-search-input input{
+     margin-left:20px;
+     margin-top: 10px;
+     width: 270px;
+     font-size:20px;
+     border: none;
+     background: transparent;
+     outline: none;
 }
-
-.hero-container{
-    padding-top: 20px;
+ .check-in , .check-out {
+     font-size: 20px;
+     float: left;
+     width: 150px;
+     height: 50px;
+     border-right: 1px solid #757575;
+     border: 1px solid #757575;
+     border-left-color: transparent ;
+}
+ .ospiti{
+     font-size: 20px;
+     float: left;
+     width: 150px;
+     height: 50px;
+     border-right-color:transparent;
+     border: 1px solid #757575;
+     border-left-color: transparent ;
+}
+ .check-in input , .check-out input , .ospiti input{
+     border: none;
+     width: 130px ;
+     background: transparent;
+     outline: none;
+     margin : 10px 10px ;
+}
+ .search-btn{
+     font-size: 20px;
+     float: left;
+     width: 48px;
+     height: 50px;
+     border: none;
+     background-color: #FF5A5F;
+     color: white;
+     font-weight: bold;
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+}
+ .search-btn:hover{
+     background-color: #FF7E82;
+     cursor: pointer;
+}
+ .slogan-container::selection , .slogan-container span::selection{
+     background-color: #FF5A5F;
+     color: white;
+}
+ .hero-text span{
+     color: #FF5A5F;
+}
+ .card-img-overlay{
+     margin-top: -15px;
+}
+ .price-stamp{
+     position: relative;
+     margin: -20px -10px;
+     z-index: 2;
+     color: #fff;
+     font-weight: 900;
+     font-size: 24px;
+     text-shadow: 0 0 6px #615e61;
+}
+ .listings-container{
+     padding-top: 40px;
+}
+ .hero-container{
+     padding-top: 20px;
 }
