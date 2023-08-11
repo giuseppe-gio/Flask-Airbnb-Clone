@@ -40,3 +40,4 @@ Ad ogni refresh 3 hot listings vengono mostrati casualmente da una pool di listi
 * can't handle non-standard size house images
 * quick seach bar not fully responsive
 * dashboard currently not active
+* webscraper sometimes messes up with price-stamp rendering 
