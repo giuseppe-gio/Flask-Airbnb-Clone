@@ -33,3 +33,10 @@ $ python3 -m flask run
 ![img](https://s11.gifyu.com/images/Sctqn.gif)
 
 Ad ogni refresh 3 hot listings vengono mostrati casualmente da una pool di listings presi dal web scraper
+
+
+KNOWN ISSUES: 
+
+* can't handle non-standard size house images
+* quick seach bar not fully responsive
+* dashboard currently not active
